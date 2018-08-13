@@ -1,0 +1,19 @@
+.logo {
+    display: block;
+    margin: 20px auto;
+}
+
+.btn {
+    margin: 0px auto;
+}
+
+.buttons {
+    margin: 0px auto;
+    justify-content: center;
+    
+}
+button {
+    padding: 10px;
+    margin: 10px;
+    
+}
