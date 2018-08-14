@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>GifTastic Assignment</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type=text/css a href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-</head>
-
-<body>
-  <div class="logo">
-    <img src = "http://logo-load.com/uploads/posts/2016-02/1456747851_friends-logo.jpg" alt = "friends logo" class = "center">
-  </div>
-
-  <div class ="buttons">
-        <form id= "user-form">
-          <label for="user-input">Search other gifs:</label>
-          <input type="text" id="user-input"><br>
-          <input id="submitButton" type="submit" value="Make new button">
-        </form>
-        
-        <div id= "buttonsContainer"></div>
-        <div id="gifsContainer"></div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript">
-      
-    var topics = ["Rachel Green", "Monica Geller", "Joey Tribbiani", "Ross Geller", "Phoebe Buffay", "Chandler Bing"]
+var topics = ["Rachel Green", "Monica Geller", "Joey Tribbiani", "Ross Geller", "Phoebe Buffay", "Chandler Bing"]
       function renderButtons(){
         console.log('running renderButtons')
 
@@ -106,7 +75,3 @@
       });
 
       renderButtons();
-  </script>
-</body>
-
-</html>
